@@ -56,11 +56,18 @@
 <div class="tree" id="familyTree"></div>
 
 <script>
-    // 預設資料：包含 Kwaya 第一代
+// 預設資料：包含 Kwaya 第一代與第二代所有手足
     let familyData = [
-        { id: "root", name: "Kwaya", zh: "瓜亞", parent: "" },
-        { id: "gen2_1", name: "Watan", zh: "瓦旦", parent: "Kwaya" },
-        { id: "gen2_2", name: "Yumin", zh: "尤命", parent: "Kwaya" }
+        { name: "Kwaya", zh: "瓜亞", parent: "" },
+        { name: "Silan Kwaya", zh: "希嵐瓜亞", parent: "Kwaya" },
+        { name: "Sya Kwaya", zh: "夏瓜亞", parent: "Kwaya" },
+        { name: "Losing Kwaya", zh: "羅幸瓜亞", parent: "Kwaya" },
+        { name: "Kuming Kwaya", zh: "國民瓜亞", parent: "Kwaya" },
+        { name: "Haytay Kwaya", zh: "黑代瓜亞", parent: "Kwaya" },
+        { name: "Bisuy Kwaya", zh: "比水瓜亞", parent: "Kwaya" },
+        { name: "Yayu Kwaya", zh: "雅玉瓜亞", parent: "Kwaya" },
+        { name: "Yuni Kwaya", zh: "優尼瓜亞", parent: "Kwaya" },
+        { name: "Yugay Kwaya", zh: "優蓋瓜亞", parent: "Kwaya" }
     ];
 
     function renderTree() {
